@@ -1,0 +1,13 @@
+.alingment-wrapper {
+    text-align: left;
+    font-size: 20px;
+}
+
+.toggle-wrapper {
+    .show {
+        visibility: visible;
+    }
+    .hide {
+        visibility: hidden;
+    }
+}
