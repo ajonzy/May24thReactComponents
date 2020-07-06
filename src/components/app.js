@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Alignment from "./alignment"
-import Toggle from "./toggle"
-import Counter from "./counter"
-import TextResizer from "./textResizer"
-import Color from "./color"
-import Clock from "./clock"
+import Alignment from "./hooks/alignment"
+import Toggle from "./traditional/toggle"
+import Counter from "./traditional/counter"
+import TextResizer from "./traditional/textResizer"
+import Color from "./hooks/color"
+import Clock from "./traditional/clock"
 
 export default class App extends Component {
   render() {
